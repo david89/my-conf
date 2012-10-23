@@ -1,0 +1,16 @@
+alias emacs='emacs -nw'
+
+MANAGE="workon lgdd; ./bin/manage.py"
+alias dgor_="$MANAGE runserver"
+alias dgor="$MANAGE runserver_plus"
+alias dgos_="$MANAGE shell"
+alias dgos="$MANAGE shell_plus"
+alias dgom="$MANAGE migrate"
+alias dgosm="$MANAGE schemamigration"
+alias dgodm="$MANAGE datamigration"
+alias dgori="$MANAGE rebuild_index"
+alias dgobse="$MANAGE build_solr_schema"
+alias dgodbs="$MANAGE dbshell"
+alias solr="workon lgdd; cd ../search/solr/; java -jar start.jar"
+alias wlgdd="workon lgdd"
+
